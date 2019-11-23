@@ -1,0 +1,57 @@
+body {
+  text-align: center;
+  margin: 5em;
+}
+
+/********** Hobbies **********/
+.hobbies-main {
+  border: 2px solid rgba(0, 0, 0, 0.377);
+  box-shadow: 2px 4px rgba(128, 128, 128, 0.65);
+  border-radius: 7px;
+}
+
+.list-item {
+  list-style: none;
+  margin-right: 26px;
+  border: 1px solid whitesmoke;
+  color: brown;
+  font-size: 22px;
+}
+
+/********** Guarantee **********/
+
+.guarantee-main {
+  margin: 5px;
+  margin-top: 40px;
+}
+
+.guarantee-div {
+  display: flex;
+  border: 2px solid rgba(0, 0, 0, 0.377);
+  box-shadow: 2px 4px rgba(128, 128, 128, 0.65);
+  border-radius: 7px;
+  margin-top: 2em;
+}
+
+.guarantee-image {
+  width: 70px;
+  height: 70px;
+}
+
+/********* Counter  *******/
+
+.counter-main {
+  border: 2px solid rgba(0, 0, 0, 0.377);
+  box-shadow: 2px 4px rgba(128, 128, 128, 0.65);
+  border-radius: 7px;
+  margin-top: 3em;
+  padding-bottom: 3em;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}

@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+}
+
+.weather-main {
+  border: 2px solid grey;
+  margin: 2% 30%;
+  padding-left: 3em;
+  text-align: left;
+}
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.condition1 {
+  font-weight: bold;
+}
+
+.temp-location {
+  margin-top: 3em;
+}
