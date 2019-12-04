@@ -1,9 +1,9 @@
 import React from 'react';
 
-function DogPhotos(props) {
+function DogPhotos({ dogName }) {
   return (
     <div className="dog-main">
-      <img alt={'photo-1'} src={props.dogName} />
+      <img className="dog-photo" alt={'photo-dog'} src={dogName} width="200" />
     </div>
   );
 }

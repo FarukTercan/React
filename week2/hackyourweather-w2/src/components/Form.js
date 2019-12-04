@@ -1,15 +1,14 @@
 import React, { useState } from 'react';
 
 function Form(props) {
-  const [cities, setCities] = useState('');
+  const [city, setCities] = useState('');
 
   const handleCity = e => {
     setCities(e.target.value);
-    console.log(e.target.value);
   };
   const handleSubmit = e => {
-    props.onSubmitForm({ cities });
     e.preventDefault();
+    city && props.onSubmitForm(city);
   };
   return (
     <div>
@@ -19,11 +18,17 @@ function Form(props) {
         }}
       >
         <label>
-          <input name="city" type="text" onChange={e => handleCity(e)} />
+          <input
+            className="form-input"
+            name="city"
+            type="search"
+            placeholder="search city"
+            onChange={e => handleCity(e)}
+          />
         </label>
 
         <label>
-          <input value="Insert City" type="submit" />
+          <input className="form-submit" value="Search" type="submit" />
         </label>
       </form>
     </div>

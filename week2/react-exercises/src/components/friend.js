@@ -20,7 +20,7 @@ function Friend() {
   }, []);
 
   return (
-    <div>
+    <div friend-main>
       <Button clickHere={() => getFriend()} buttonText="Get a friend" />
       {loading === false && (
         <FriendProfile

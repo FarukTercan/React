@@ -6,7 +6,7 @@ import Joke from './components/Joke';
 
 function App() {
   return (
-    <div>
+    <div className="app-main">
       <Friend />
       <DogGallery />
       <Joke />
