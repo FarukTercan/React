@@ -77,3 +77,26 @@ body {
 .close-city:hover {
   background: rgba(255, 0, 0, 0.698);
 }
+
+/*      CHART      */
+
+.chart {
+  text-align: center;
+  margin: 2em 18%;
+}
+
+.btn {
+  width: 120px;
+  height: 40px;
+}
+
+.home-btn {
+  margin-top: 1em;
+  position: relative;
+  right: 400px;
+}
+
+.hourly-btn {
+  background: blue;
+  color: white;
+}

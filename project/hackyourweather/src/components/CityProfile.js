@@ -1,5 +1,6 @@
 import React from 'react';
 import DeleteForeverTwoToneIcon from '@material-ui/icons/DeleteForeverTwoTone';
+import { Link } from 'react-router-dom';
 
 function CityProfile(props) {
   const { name, sys, weather, main, coord, id } = props.city;
@@ -20,9 +21,11 @@ function CityProfile(props) {
       </button>
       <ul className="city-list">
         <li>
-          <h3>
-            {name}, {sys.country}
-          </h3>
+          <Link to={`/${id}`}>
+            <h3>
+              {name}, {sys.country}
+            </h3>
+          </Link>
         </li>
         <li>
           <span>Condition :</span> {weather[0].main} / {weather[0].description}

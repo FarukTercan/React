@@ -47,7 +47,6 @@ function Cities() {
           <CityProfile
             clickDelete={id => {
               deleteCity(id);
-              console.log('??', id);
             }}
             id={city.id}
             key={city.id}
